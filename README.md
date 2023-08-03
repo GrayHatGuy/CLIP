@@ -36,11 +36,11 @@ $ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 cpuonly -c 
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
-Image categorizing by text:
+### Example Image categorizing by text:
 
 *Input text categories and point to image directory or default to ```pwd``` for classifications. Outputs relative detection accuracy % for each image and category*
 
-imdir_CLIP.py 
+#### imdir_CLIP.py 
 
 ```python
 import os
@@ -101,7 +101,7 @@ Use a pipe to process images in the pwd
 
 ```ls -al | imdir-cli.py```
 
-imdir-cli.py
+#### imdir-cli.py
 
 ```
 import os
