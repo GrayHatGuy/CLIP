@@ -36,7 +36,9 @@ $ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 cpuonly -c 
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
-Contrasted categorizing example:
+Image categorizing by text:
+
+*Input text categories and point to image directory for classifications. Outputs relative detection accuracy % for each image and category*
 
 ```python
 import torch
