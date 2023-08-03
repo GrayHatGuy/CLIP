@@ -94,6 +94,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 **OR**
 
 Use a pipe to process images in the pwd
