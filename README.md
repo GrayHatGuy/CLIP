@@ -27,7 +27,7 @@ Replace `cudatoolkit=11.0` above with the appropriate CUDA version on your machi
 ### For RPi:
 
 
--Install [Miniforge](https://github.com/conda-forge/miniforge) to install conda
+-Install [Miniforge](https://github.com/conda-forge/miniforge) for conda
 
 -Run the following:
 
