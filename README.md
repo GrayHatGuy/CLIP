@@ -21,16 +21,22 @@ $ conda install --yes -c pytorch pytorch=1.7.1 torchvision cudatoolkit=11.0
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
+
 Replace `cudatoolkit=11.0` above with the appropriate CUDA version on your machine or `cpuonly` when installing on a machine without a GPU.
 
-For RPi
--Install [Miniforge](https://github.com/conda-forge/miniforge) to install conda.
+### For RPi:
+
+
+-Install [Miniforge](https://github.com/conda-forge/miniforge) to install conda
+
 -Run the following:
-```bash
+
+```
 $ conda install pytorch==2.0.0 torchvision==0.15.0 torchaudio==2.0.0 cpuonly -c pytorch
 $ pip install ftfy regex tqdm
 $ pip install git+https://github.com/openai/CLIP.git
 ```
+Contrasted categorizing example:
 
 ```python
 import torch
